@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 8282;
 
 // CORS setup
 app.use(cors({
-  origin: 'http://localhost:5173',  // Change to the appropriate frontend URL
+  origin: 'https://trk-park-lot-client.onrender.com',  // Change to the appropriate frontend URL
   credentials: true, // Allow cookies with credentials (if needed)
 }));
 
